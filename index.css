@@ -1,0 +1,243 @@
+body{
+	overflow: hidden;	
+}
+
+#gallery
+{	z-index:0;
+	width: 2000px;
+	height: 600px;
+	border:;
+	margin: 0px auto;
+	position:fixed;
+	left:0px;
+	top:0px;
+	border:red;
+	
+/*background: #a1dbff; /* Old browsers */
+/*background: -moz-linear-gradient(top,  #a1dbff 16%, #cbebff 47%, #f0f9ff 100%); /* FF3.6+ */
+/*background: -webkit-gradient(linear, left top, left bottom, color-stop(16%,#a1dbff), color-stop(47%,#cbebff), color-stop(100%,#f0f9ff)); /* Chrome,Safari4+ */
+/*background: -webkit-linear-gradient(top,  #a1dbff 16%,#cbebff 47%,#f0f9ff 100%); /* Chrome10+,Safari5.1+ */
+/*background: -o-linear-gradient(top,  #a1dbff 16%,#cbebff 47%,#f0f9ff 100%); /* Opera 11.10+ */
+/*background: -ms-linear-gradient(top,  #a1dbff 16%,#cbebff 47%,#f0f9ff 100%); /* IE10+ */
+/*background: linear-gradient(to bottom,  #a1dbff 16%,#cbebff 47%,#f0f9ff 100%); /* W3C */
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a1dbff', endColorstr='#f0f9ff',GradientType=0 ); /* IE6-9 */								
+
+
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#959595+0,0d0d0d+46,010101+50,0a0a0a+53,4e4e4e+76,383838+87,1b1b1b+100;Black+Gloss+Pipe */
+background: rgb(149,149,149); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(149,149,149,1) 0%, rgba(13,13,13,1) 46%, rgba(1,1,1,1) 50%, rgba(10,10,10,1) 53%, rgba(78,78,78,1) 76%, rgba(56,56,56,1) 87%, rgba(27,27,27,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); /* IE6-9 */
+
+
+
+}	
+
+#BG{
+	z-index:999;
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:solid 0px red;	
+	background-color:white;
+	opacity:1;
+}
+
+#logo{
+	width:200px;
+	height:200px;
+	position:fixed;
+	padding-top:-30px;
+	
+	top:50%;
+	left:50%;
+	margin-top:-100px;
+	margin-left:-100px;
+	border:solid 0px red;
+	
+}
+
+p#imgP{text-align:center}
+
+
+
+img#logoimg{
+	/* 只有chrome可以這樣 
+	content: url('../img/LOGO.png'); 
+	*/
+	width:200px;
+	height:200px;
+	margin-top:-20px;
+	margin-bottom:-10px;
+	border:solid 0px blue;
+}
+
+p#title{
+	text-align:center;	
+	border:solid 0px red;
+	position:;
+	bottom:0px;
+	font-family: 微軟正黑體;
+}
+
+p#title + p {
+	font-family: Arial;
+	text-align:center;	
+}
+
+#btndiv{
+	z-index:1;
+	position:fixed;
+	top:15px;
+	left:10px;
+	border:solid 0px red;	
+}
+
+.btn{	
+
+	border-radius: 10px;	
+	padding:6px;
+	font-size:20px;
+	background:white;
+	font-family: Arial;
+	display:inline-block;
+	
+}
+#grid{
+	opacity:0.6;
+	margin-bottom:0px
+}
+
+#grid:hover {
+    cursor: pointer;
+	opacity:1;
+}
+
+#surface{
+	opacity:0.6;
+	margin-top:10px
+}
+
+#surface:hover {
+    cursor: pointer;
+	opacity:1;
+}
+
+#line{
+	
+	margin-top:10px;
+	opacity:0.6;
+	
+}
+
+#line:hover {
+    cursor: pointer;
+	opacity:1;
+}
+
+#helix{
+	margin-top:10px;
+	opacity:0.6;
+	
+}
+
+#helix:hover {
+    cursor: pointer;
+	opacity:1;
+}
+
+#helix2{
+	margin-top:10px;
+	opacity:0.6;
+	
+}
+
+#helix2:hover {
+    cursor: pointer;
+	opacity:1;
+}
+
+img#preface{
+	/* 只有chrome可以這樣 
+	content: url('../img/LOGO.png'); 
+	*/
+	width:53px;
+	height:53px;
+	margin-top:10px;
+
+}
+
+img#preface:hover {
+    cursor: pointer;
+	
+}
+
+
+
+
+#infobox:hover{
+	cursor: pointer;
+	
+}
+
+
+
+#infobox{
+	position:fixed;
+	z-index:10;
+	width:300px;
+	height:300px;
+	background-color:white;
+	border-radius:10px;
+	padding:6px;	
+	padding-left:10px;
+	padding-right:10px;
+	border:solid 1px lightgrey;
+	bottom:-275px;
+	left:50%;
+	margin-left:-150px;
+}
+
+#infotitle{
+	font-family:微軟正黑體;
+	font-size:20px;
+	margin-top:0px;
+	text-align:center;
+	border-bottom:solid 1px lightgrey;
+	
+}
+	
+
+#infocontent{
+	font-family:微軟正黑體;
+	font-size:20px;
+	text-align:justify;
+	margin-top:0px;
+	padding:3px;
+	height:220px;
+	border:solid 0px lightgrey;
+	overflow-y:auto;
+}
+
+::-webkit-scrollbar {
+      width: 6px;
+}
+
+::-webkit-scrollbar-button {
+    background:
+}
+
+::-webkit-scrollbar-track-piece {
+    background: lightgrey;
+	
+}
+
+::-webkit-scrollbar-thumb {
+	
+    background: grey;
+	
+}
