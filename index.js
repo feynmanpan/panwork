@@ -83,7 +83,7 @@
   
 	
 		//load的東西要用FF試，Chrome無法本機load
-		var imgN=483;//圖片總數2016/0812
+		var imgN=485;//圖片總數2016/0826
 		var loadedN=0;
 		var path="work/"
 		
